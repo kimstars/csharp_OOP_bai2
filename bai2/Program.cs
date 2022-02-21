@@ -73,7 +73,7 @@ namespace bai2
         }
 
         static void SapXep(ref List<Employee> employees)
-        {baitap\huongdoituong\ba
+        {
             employees.Sort((x, y) => x.Ngay1.CompareTo(y.Ngay1));
         }
 
