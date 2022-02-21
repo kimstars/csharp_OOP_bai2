@@ -10,7 +10,7 @@ namespace bai2
     {
         public override void Nhap()
         {
-            Console.Write("Nhap Nhan vien FullTime: ");
+            Console.WriteLine("Nhập nhân viên FullTime: ");
             base.Nhap();
         }
         public override void TaoHopDong(string HDFT)
@@ -19,7 +19,7 @@ namespace bai2
         }
         public override void Xuat()
         {
-            Console.Write("Nhan vien FullTime: ");
+            Console.Write("Nhân viên FullTime: ");
             base.Xuat();   
         }
     }
