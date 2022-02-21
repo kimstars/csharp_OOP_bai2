@@ -17,5 +17,10 @@ namespace bai2
         {
             SoHopDong1 = HDFT + MaNhanVien1 + Ngay1;
         }
+        public override void Xuat()
+        {
+            Console.Write("Nhan vien FullTime: ");
+            base.Xuat();   
+        }
     }
 }

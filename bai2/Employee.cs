@@ -58,6 +58,14 @@ namespace bai2
             } while (!validate.IsMatch(Ngay));
         }
 
+        public virtual void Xuat()
+        {
+            Console.Write($"Mã nhân viên: {MaNhanVien} ");
+            Console.Write($"|Họ và tên: {HoTen}");
+            Console.Write($"|Số hợp đồng :{SoHopDong}");
+            Console.WriteLine($"|Ngày vào làm: {Ngay}");
+
+        }
         public virtual void TaoHopDong(string HD)
         {
             SoHopDong = HD + MaNhanVien + Ngay;
